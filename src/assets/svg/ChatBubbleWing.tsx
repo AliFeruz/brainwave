@@ -1,6 +1,6 @@
 type Props = {
-  className: string;
-  pathClassName: string;
+  className?: string;
+  pathClassName?: string;
 };
 
 const ChatBubbleWing = ({ className, pathClassName }: Props) => {
