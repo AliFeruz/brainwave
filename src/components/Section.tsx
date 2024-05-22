@@ -5,7 +5,7 @@ type Props = {
   className?: string, 
   id?: string, 
   crosses?: boolean, 
-  crossesOffset: string, 
+  crossesOffset?: string, 
   customPaddings?: boolean, 
   children?: React.ReactNode
 }
